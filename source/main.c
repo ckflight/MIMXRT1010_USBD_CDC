@@ -34,7 +34,7 @@ int main(void){
     	while(CK_USBD_ReadData(&data) == 1){
 
     		rx_buffer[rx_buffer_index++] = data;
-		}
+	}
 
     	if(rx_buffer_index){
 
