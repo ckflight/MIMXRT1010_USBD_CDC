@@ -8,3 +8,4 @@ Use my virtual_com.c/.h files for user interface to interact with USB Device
 
 Circular buffer for reception and a fast simple transfer buffer with 512 byte size is implemented. Also, printer methods are implemented to easily print integer, string, float etc.
 
+Project also includes SYSTICK Interrupt in CK_TIME.c/.h files for time calculations.
